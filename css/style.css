@@ -1,0 +1,184 @@
+html, body, ul, li, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6em;
+}
+
+.clear {
+  clear: both;
+}
+
+.header {
+  background-image: url('../img/header.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh;
+  margin: 0;
+  padding: 0;
+
+}
+
+.container {
+  width: 80%;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+/* navigation styles */
+
+.nav-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.main-nav {
+  background-color: #403D58;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.main-nav h3 {
+  font-family: 'Lobster', cursive;
+  color: #F2EFEA;
+  font-size: 1.9em;
+  text-shadow: 2px 2px 3px #000;
+}
+
+
+.main-nav li {
+  display: inline-block;
+  float: right;
+  margin: 9px 0 0 12px;
+}
+
+.main-nav a {
+  color: #F2EFEA;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+h1 {
+  color: #62466B;
+  text-align: center;
+}
+
+h4 {
+  color: #896978;
+}
+
+h5 {
+  color: #DB9D47;
+}
+
+.company-name {
+  float: left;
+}
+
+
+#STAFF {
+  text-align: center;
+}
+.card {
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+}
+
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+    border-radius: 50%;
+    box-shadow: 4px 7px 5px #ccc;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 18px;
+}
+.thumbnail img{
+    position:absolute;
+    height: auto;
+    width: auto;
+    max-width:100%;
+}
+
+.centered img {
+    position:absolute;
+    top: 0;
+    transform:translateY(-50%);
+    transform: translateX(-50%);
+}
+
+/* services section */
+
+#SERVICES {
+  padding: 40px;
+  margin-bottom: 50px;
+}
+.service-left {
+  color: #8C93A8;
+  width: 20%;
+  float: left;
+}
+
+.service-right {
+  color: #8C93A8;
+  width: 20%;
+  float: right;
+  text-align: right;
+}
+
+.service-ct-r {
+  float: right;
+  width: 80%;
+}
+
+.service-ct-l {
+  float: left;
+  width: 80%;
+}
+
+
+.service-container-l {
+  width: 80%;
+  margin: 75px auto;
+  text-align: left;
+}
+
+.service-container-r {
+  width: 80%;
+  margin: 75px auto;
+  text-align: right;
+}
+
+/* contact section */
+
+.contact-form {
+  width: 50%;
+  float: left;
+}
+
+.form-line {
+  width: 90%;
+  margin: 10px 0;
+}
+
+.media-contact {
+  width: 30%;
+  display: inline-block;
+}
+
+
+/* mobile responsive */
+
+@media only screen and (max-width: 720px) {
+  .service-left, .service-right, .service-ct-l, .service-ct-r, .media-contact, .contact-form {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
